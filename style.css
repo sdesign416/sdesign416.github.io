@@ -97,8 +97,11 @@
 #sec03 #mock .mock-cont .mc-tit h4{color:var(--proj001); font-weight:800; font-size:88px; line-height:1.22;}
 #sec03 #mock .mock-cont .mc-tit h4 small{display:block; font-size:0.5em;}
 #sec03 #mock .mock-cont .mc-tit h4 small.sub-txt{font-weight:500; font-size:0.4em; margin-top:8px;}
-#sec03 #mock .mock-cont a.mc-btn{position:relative; display:inline-block; padding:13px 70px; border-radius:8px; background:var(--proj001); margin:70px 0 130px;}
-#sec03 #mock .mock-cont a.mc-btn p{display:inline-block; font-size:16px; font-weight:500; color:#fff; line-height:1;}
+#sec03 #mock .mock-cont a.mc-btn{position:relative; display:inline-block; padding:13px 70px; border-radius:8px; background:var(--proj001); margin:70px 0 130px; overflow:hidden;}
+#sec03 #mock .mock-cont a.mc-btn p{position:relative; display:inline-block; font-size:16px; font-weight:500; color:#fff; line-height:1; z-index:5;}
+#sec03 #mock .mock-cont a.mc-btn:after{content: "";transition: all .4s;display: block;background:#000;opacity:0;width:0px;height:0px;position: absolute;transform:translate(-50%, -50%);left:50%;top:50%;border-radius:100%;z-index: 1;}
+#sec03 #mock .mock-cont a.mc-btn:hover:after{width:220px;height:220px;opacity:.2;}
+
 #sec03 #mock .mock-cont .mc-cont{position:relative; width:100%;}
 #sec03 #mock .mock-cont .mc-cont dl{position:relative; width:100%; display:flex; align-items: center;}
 #sec03 #mock .mock-cont .mc-cont dl + dl{margin-top:14px;}
