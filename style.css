@@ -49,7 +49,7 @@
 
 
 /* 프로필 */
-#sec02{position:relative; background-color:var(--backwhite);}
+#sec02{position:relative; background-color:var(--backwhite2);}
 #sec02 .intro_wr{position:relative; display:flex; align-items: center;}
 
 #sec02 .intro-left{position:relative; width:40%;}
