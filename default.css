@@ -25,6 +25,7 @@ p, b, li, a, span, h1, h2, h3, h4, h5, h6, strong, dl, dt, dd, th, td, small {-m
 body {
     width: 1600px; /* 고정 너비 설정 */
     overflow-x: hidden; /* 가로 스크롤 방지 */
+    margin: 0 auto;
 }
 :root{
     --pink001:#ea7480;
