@@ -26,6 +26,7 @@ p, b, li, a, span, h1, h2, h3, h4, h5, h6, strong, dl, dt, dd, th, td, small {-m
     --pink001:#ea7480;
     --pink002:#ffe4e4;
     --backwhite:#fffefe;
+    --backwhite:#fffaf8;
     --font:"Abril Fatface";
 	/* 주요프로젝트 포인트컬러 */
     --proj001:#8b0029; /*신소재*/
