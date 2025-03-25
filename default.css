@@ -21,6 +21,25 @@ a {color:#000;text-decoration:none}
 
 p, b, li, a, span, h1, h2, h3, h4, h5, h6, strong, dl, dt, dd, th, td, small {-ms-word-break: keep-all; word-break: keep-all;}
 
+/* 섹션공통 */
+body{background-color: #999;}
+:root{
+    --pink001:#ea7480;
+    --pink002:#ffe4e4;
+    --backwhite:#fffefe;
+    --font:"Abril Fatface";
+	/* 주요프로젝트 포인트컬러 */
+    --proj001:#8b0029; /*신소재*/
+    --proj002:#005094; /*기계트랙*/
+    --proj003:#00997d; /*MKB*/
+    --proj004:#c8252c; /*플로우닉스*/
+}
+.sec{position: relative; max-width: 1920px; height:920px; margin: 0 auto;}
+.w1580{position: relative; width:100%; max-width:1580px; margin:0 auto; height:100%; box-sizing: border-box; padding:80px 0;}
+.w1680{position: relative; width:100%; max-width:1680px; margin:0 auto; height:100%; box-sizing: border-box; padding:80px 0;}
+.w1720{position: relative; width:100%; max-width:1720px; margin:0 auto; height:100%; box-sizing: border-box; padding:80px 0;}
+/*.inner{position: relative;padding:0 70px;}*/
+
 
 /* Basic in-view */
 .a-up{transform:translateY(25px); opacity:0;}
