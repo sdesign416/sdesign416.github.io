@@ -30,6 +30,24 @@
 #sec01 .cover-bot dl dd i{margin-right: 5px;}
 #sec01 .cover-bot dl dd a{color:#fff;}
 
+/* 슬로건 애니메이션 */
+#sec01 .cover-top p.ani{transform:scale(.8); opacity:0; transition:all 1s;}
+#sec01 .cover-top p.ani.in-view{transform:scale(1); opacity:1;}
+#sec01 .cover-slog p .char{
+	animation: text-active-animation 1.1s cubic-bezier(0.4, 0, 0.2, 1) both;
+	animation-delay: calc(50ms * var(--char-index));
+}
+@keyframes text-active-animation {
+	from{opacity:0; transform: translateY(50%);}
+	to{opacity:1; transform: translateY(0px);}
+}
+
+#sec01 .cover-slog h5 span{display: block; transform:translateY(30px); opacity:0;}
+#sec01 .cover-slog h5 span.in-view{transform:translateY(0px); opacity:1; transition:all 1s;}
+#sec01 .cover-slog h5 span:nth-child(1){transition-delay:.1s;}
+#sec01 .cover-slog h5 span:nth-child(2){transition-delay:.4s;}
+#sec01 .cover-slog h5 span:nth-child(3){transition-delay:.7s;}
+
 /* 배경 모션 */
 #sec01 .bg-box{position:absolute; width:100%; height:100%; top:0; left:0; z-index:1; overflow:hidden;
 	background: linear-gradient(120deg, rgba(212,168,194,1) 0%, rgba(250,203,196,1) 30%, rgba(238,168,163,1) 50%, rgba(147,135,232,1) 100%);
@@ -117,12 +135,12 @@ a.site-btn:hover:after{width:220px;height:220px;opacity:.3;}
 #sec03 #mock .img-sec img.img-mock{position:relative; width:100%; z-index:2;}
 #sec03 #mock .img-sec .view-scroll{position:absolute; left:0; top:0; right:0; bottom:0; transition: background-position 4s ease; background-position: 0 0; background-size: 100% auto; overflow: hidden; cursor: pointer;}
 
-#sec03 #mock .img-sec .pc_wr{position:relative; display:block; width:850px; height:706px;}
+#sec03 #mock .img-sec .pc_wr{position:relative; display:block; width:850px; height:706px; transition-delay:.2s;}
 #sec03 #mock .img-sec .pc_wr .view-pc{height:470px; margin:38px; border-radius:5px 5px 0 0; z-index:3;}
 #sec03 #mock .img-sec .pc_wr:hover .view-scroll{background-position: 0 100%;}
 #sec03 #mock .img-sec .pc_wr .view-pc:after {position:absolute; content:''; left:0; top:0; right:0; bottom:0; background: radial-gradient(circle at right bottom, transparent 75%, rgba(255, 255, 255, 0.05) 75%, transparent);}
 
-#sec03 #mock .img-sec .mob_wr{position:absolute; display:block; width:200px; height:380px; z-index:3; right:0; bottom:0;}
+#sec03 #mock .img-sec .mob_wr{position:absolute; display:block; width:200px; height:380px; z-index:3; right:0; bottom:0; transition-delay:.35s;}
 #sec03 #mock .img-sec .mob_wr .view-mob{height:360px; margin:10px; border-radius:5px 5px 0 0; z-index:0;}
 #sec03 #mock .img-sec .mob_wr:hover .view-scroll{background-position: 0 100%; transition: background-position 10s ease;}
 
@@ -136,10 +154,10 @@ a.site-btn:hover:after{width:220px;height:220px;opacity:.3;}
 #sec03 #over .over-bg img{width:100%;}
 
 #sec03 #over .over_wr{position:relative;}
-#sec03 #over .over_wr span{display:block; color:var(--proj001); font-weight:600; font-size:22px; line-height:1; margin-top: 60px; transition-delay:.5s;}
-#sec03 #over .over_wr h2.ov-tit{color:#222; font-weight:400; font-size:42px; line-height:1.35; margin:15px 0 35px; letter-spacing:-0.02em; transition-delay:.8s;}
+#sec03 #over .over_wr span{display:block; color:var(--proj001); font-weight:600; font-size:22px; line-height:1; margin-top: 60px; transition-delay:.3s;}
+#sec03 #over .over_wr h2.ov-tit{color:#222; font-weight:400; font-size:42px; line-height:1.35; margin:15px 0 35px; letter-spacing:-0.02em; transition-delay:.5s;}
 #sec03 #over .over_wr h2.ov-tit b{font-weight:800;}
-#sec03 #over .over_wr p.ov-cont{width:520px; color:#222; font-weight:400; font-size:19px; line-height:1.75; transition-delay:1s;}
+#sec03 #over .over_wr p.ov-cont{width:520px; color:#222; font-weight:400; font-size:19px; line-height:1.75; transition-delay:.7s;}
 
 
 /* 프로젝트별 포인트컬러 */
@@ -163,27 +181,28 @@ a.site-btn:hover:after{width:220px;height:220px;opacity:.3;}
 #sec03.proj-04 #mock .mock-cont a.site-btn{background:var(--proj004);}
 #sec03.proj-04 #over .over_wr span{ color:var(--proj004);}
 
+
 /* 오버뷰 이미지 모션 */
 .over-bg .obj-img{position:absolute; left:0; top:0; width:100%; height:100%; overflow:hidden; }
-.over-bg .obj{position:absolute; display:inline-block;}
-.over-bg .obj img{max-width:100%;}
+.over-bg .obj-img .obj{position:absolute; display:inline-block;}
+.over-bg .obj-img .obj img{max-width:100%;}
 
-.over-bg .obj-1.a-{opacity:0; top:50%; left:50%; transform:translate(-50%, -50%); transition:.8s; transition-delay:.4s;}
-.over-bg .obj-1.a-.in-view{opacity:1; top:-423px; left:1046px; transform:translate(0%, 0%);}
-.over-bg .obj-2.a-{opacity:0; top:50%; left:50%; transform:translate(50%, -50%); transition:.8s; transition-delay:.5s;}
-.over-bg .obj-2.a-.in-view{opacity:1; top:71px; left:761px; transform:translate(0%, 0%);}
-.over-bg .obj-3.a-{opacity:0; bottom:0%; left:50%; transform:translate(50%, 50%); transition:.8s; transition-delay:.6s;}
-.over-bg .obj-3.a-.in-view{opacity:1; bottom:-331px; left:475px; transform:translate(0%, 0%);}
-.over-bg .obj-4.a-{opacity:0; top:50%; right:50%; transform:translate(50%, -50%); transition:.8s; transition-delay:.7s;}
-.over-bg .obj-4.a-.in-view{opacity:1; top:-402px; right:-290px; transform:translate(0%, 0%);}
-.over-bg .obj-5.a-{opacity:0; top:50%; right:50%; transform:translate(50%, -50%); transition:.8s; transition-delay:.8s;}
-.over-bg .obj-5.a-.in-view{opacity:1; top:92px; right:-5px; transform:translate(0%, 0%);}
-.over-bg .obj-6.a-{opacity:0; bottom:0%; right:0%; transform:translate(0%, 50%); transition:.8s; transition-delay:.9s;}
-.over-bg .obj-6.a-.in-view{opacity:1; bottom:-352px; right:281px; transform:translate(0%, 0%);}
-.over-bg .obj-7.a-{opacity:0; top:50%; right:50%; transform:translate(50%, -50%); transition:.8s; transition-delay:.7s;}
-.over-bg .obj-7.a-.in-view{opacity:1; top:36px; right:-567px; transform:translate(0%, 0%);}
-.over-bg .obj-8.a-{opacity:0; bottom:50%; right:0%; transform:translate(50%, 50%); transition:.8s; transition-delay:1s;}
-.over-bg .obj-8.a-.in-view{opacity:1; bottom:-296px; right:-282px; transform:translate(0%, 0%);}
+.over-bg .obj-img .obj-1{opacity:0; top:50%; left:50%; transform:translate(-50%, -50%); transition:.8s; transition-delay:.1s;}
+.over-bg .obj-img.in-view .obj-1{opacity:1; top:-423px; left:1046px; transform:translate(0%, 0%);}
+.over-bg .obj-img .obj-2{opacity:0; top:50%; left:50%; transform:translate(50%, -50%); transition:.8s; transition-delay:.2s;}
+.over-bg .obj-img.in-view .obj-2{opacity:1; top:71px; left:761px; transform:translate(0%, 0%);}
+.over-bg .obj-img .obj-3{opacity:0; bottom:0%; left:50%; transform:translate(50%, 50%); transition:.8s; transition-delay:.3s;}
+.over-bg .obj-img.in-view .obj-3{opacity:1; bottom:-331px; left:475px; transform:translate(0%, 0%);}
+.over-bg .obj-img .obj-4{opacity:0; top:50%; right:50%; transform:translate(50%, -50%); transition:.8s; transition-delay:.4s;}
+.over-bg .obj-img.in-view .obj-4{opacity:1; top:-402px; right:-290px; transform:translate(0%, 0%);}
+.over-bg .obj-img .obj-5{opacity:0; top:50%; right:50%; transform:translate(50%, -50%); transition:.8s; transition-delay:.5s;}
+.over-bg .obj-img.in-view .obj-5{opacity:1; top:92px; right:-5px; transform:translate(0%, 0%);}
+.over-bg .obj-img .obj-6{opacity:0; bottom:0%; right:0%; transform:translate(0%, 50%); transition:.8s; transition-delay:.97s;}
+.over-bg .obj-img.in-view .obj-6{opacity:1; bottom:-352px; right:281px; transform:translate(0%, 0%);}
+.over-bg .obj-img .obj-7{opacity:0; top:50%; right:50%; transform:translate(50%, -50%); transition:.8s; transition-delay:.6s;}
+.over-bg .obj-img.in-view .obj-7{opacity:1; top:36px; right:-567px; transform:translate(0%, 0%);}
+.over-bg .obj-img .obj-8{opacity:0; bottom:50%; right:0%; transform:translate(50%, 50%); transition:.8s; transition-delay:8s;}
+.over-bg .obj-img.in-view .obj-8{opacity:1; bottom:-296px; right:-282px; transform:translate(0%, 0%);}
 
 
 /* 작업목록 */
@@ -240,18 +259,20 @@ a.site-btn:hover:after{width:220px;height:220px;opacity:.3;}
 
 
 
-.airplane{position: absolute; width:100px; right:50%; top:50%; animation: up 2s ease-in-out infinite alternate, rotate 4s ease-out infinite;}
+#sec01.end{height: auto;}
+#sec01.end .end_wr{padding:150px 0 60px;}
 
-@keyframes up{
-	to{margin-top:-100px;}
-}
+#sec01.end .end-slog{position:relative; margin-bottom:80px;}
+#sec01.end .end-slog h5{color:#fff;  font-family:var(--font); font-weight:normal; font-size:95px; letter-spacing: 0.01em; line-height:1;}
+#sec01.end .end-slog p{font-size:50px; font-weight:200; color:#fff; letter-spacing:0.01em; line-height:1.3; margin-top:40px;}
+#sec01.end .end-slog p b{font-weight:600;}
+
+#sec01.end .cover-bot{position: relative; justify-content: flex-end; bottom: auto;}
+#sec01.end .cover-bot dt{position: relative; display: inline-block;}
+#sec01.end .cover-bot img.airplane{position: absolute; width:40px; right:-45px; top:-4px; animation: rotate 2s ease-out infinite; transform: rotate(15deg);}
 @keyframes rotate{
-	50%{transform: rotate(-15deg);}
-	75%{transform: rotate(20deg);}
+	50%{right:-60px;}
+	75%{right:-45px;}
 }
 
-.end-slog{position:relative;}
-.end-slog h5{color:#fff;  font-family:var(--font); font-weight:normal; font-size:95px; letter-spacing: 0.01em; line-height:1;}
-.end-slog p{font-size:50px; font-weight:200; color:#fff; letter-spacing:0.01em; line-height:1.18; margin-top:35px;}
-.end-slog p b{font-weight:600;}
 
