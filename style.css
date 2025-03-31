@@ -88,13 +88,13 @@
 .part-con dl + dl{margin-top:14px;}
 .part-con dl dt{width:16%; font-size:17px; font-weight:600; color:#555; letter-spacing:-0.02em;}
 .part-con dl dd{width:84%; font-size:17px; font-weight:500; color:#333;letter-spacing:-0.05em;}
-.part-con dl dd.keyword{display:flex; align-items: center; gap:8px;}
+.part-con dl dd.keyword{display:flex; align-items: center; gap:6px;}
 .part-con dl dd.keyword span{display:inline-block; padding:4px 10px; border:1px solid #888; border-radius:5px; font-size:14px; font-weight:500; color:#888;}
 
 a.site-btn{position:relative; display:inline-block; padding:13px 70px; border-radius:8px; background:var(--proj001); margin:70px 0 130px; overflow:hidden;}
 a.site-btn p{position:relative; display:inline-block; font-size:16px; font-weight:500; color:#fff; line-height:1; z-index:5; white-space:nowrap}
 a.site-btn:after{content: "";transition: all .4s;display: block;background:#000;opacity:0;width:0px;height:0px;position: absolute;transform:translate(-50%, -50%);left:50%;top:50%;border-radius:100%;z-index: 1;}
-a.site-btn:hover:after{width:220px;height:220px;opacity:.2;}
+a.site-btn:hover:after{width:220px;height:220px;opacity:.3;}
 
 /* 주요프로젝트 */
 #sec03{position:relative; background-color:#fff;}
@@ -145,22 +145,22 @@ a.site-btn:hover:after{width:220px;height:220px;opacity:.2;}
 /* 프로젝트별 포인트컬러 */
 #sec03.proj-01 #mock .mock-cont .mc-tit span{color:var(--proj001);}
 #sec03.proj-01 #mock .mock-cont .mc-tit h4{color:var(--proj001);}
-#sec03.proj-01 #mock .mock-cont a.mc-btn{background:var(--proj001);}
+#sec03.proj-01 #mock .mock-cont a.site-btn{background:var(--proj001);}
 #sec03.proj-01 #over .over_wr span{ color:var(--proj001);}
 
 #sec03.proj-02 #mock .mock-cont .mc-tit span{color:var(--proj002);}
 #sec03.proj-02 #mock .mock-cont .mc-tit h4{color:var(--proj002);}
-#sec03.proj-02 #mock .mock-cont a.mc-btn{background:var(--proj002);}
+#sec03.proj-02 #mock .mock-cont a.site-btn{background:var(--proj002);}
 #sec03.proj-02 #over .over_wr span{ color:var(--proj002);}
 
 #sec03.proj-03 #mock .mock-cont .mc-tit span{color:var(--proj003);}
 #sec03.proj-03 #mock .mock-cont .mc-tit h4{color:var(--proj003);}
-#sec03.proj-03 #mock .mock-cont a.mc-btn{background:var(--proj003);}
+#sec03.proj-03 #mock .mock-cont a.site-btn{background:var(--proj003);}
 #sec03.proj-03 #over .over_wr span{ color:var(--proj003);}
 
 #sec03.proj-04 #mock .mock-cont .mc-tit span{color:var(--proj004);}
 #sec03.proj-04 #mock .mock-cont .mc-tit h4{color:var(--proj004);}
-#sec03.proj-04 #mock .mock-cont a.mc-btn{background:var(--proj004);}
+#sec03.proj-04 #mock .mock-cont a.site-btn{background:var(--proj004);}
 #sec03.proj-04 #over .over_wr span{ color:var(--proj004);}
 
 /* 오버뷰 이미지 모션 */
@@ -193,10 +193,10 @@ a.site-btn:hover:after{width:220px;height:220px;opacity:.2;}
 #sec04 h3.work-tit::before{position:absolute; content:''; display:block; width:90px; height:3px; background-color:var(--pink001); top:0; left:50%; transform:translateX(-50%);}
 #sec04 ul.work-list{position: relative; margin-top: 120px;}
 #sec04 ul.work-list li{position:relative;display:flex; width:100%; padding:0 45px 25px; box-sizing: border-box; border-radius:20px; box-shadow: 0px 10px 30px 0px rgb(0 0 0 / 20%);}
-#sec04 ul.work-list li + li{margin-top:90px;}
+#sec04 ul.work-list li + li{margin-top:115px;}
 #sec04 ul.work-list li .work-thum{position:relative; display:block; transform:translateY(-40px)}
-#sec04 ul.work-list li .work-thum .th-img{position:relative; display:block; width:350px; height:360px; overflow: hidden; border-radius:12px; background:#000;}
-#sec04 ul.work-list li .work-thum .th-img a.site-btn{position:absolute; margin:0 auto; background:var(--pink001); left: 50%; top: 50%; transform: translate(-50%, -50%); opacity:0; transition: 0.4s; transition-delay:.15s;}
+#sec04 ul.work-list li .work-thum .th-img{position:relative; display:block; width:350px; height:360px; overflow: hidden; border-radius:12px; background:#000; box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 5%); border:1px solid #f9f9f9;}
+#sec04 ul.work-list li .work-thum .th-img a.site-btn{position:absolute; margin:0 auto; background:var(--pink001); left: 50%; top: 50%; transform: translate(-50%, -50%); opacity:0; transition: 0.4s; transition-delay:.15s; z-index:5;}
 #sec04 ul.work-list li .work-thum .th-img a.site-btn:after{background:#fff;}
 #sec04 ul.work-list li .work-thum .th-img:hover a.site-btn{opacity:1;}
 
@@ -216,11 +216,11 @@ a.site-btn:hover:after{width:220px;height:220px;opacity:.2;}
 #sec04 ul.work-list li .work-con{position:relative; width:calc(100% - 350px); padding:60px 55px; box-sizing: border-box}
 #sec04 ul.work-list li .work-con .txt-box{position:relative; width:65%;}
 #sec04 ul.work-list li .work-con .txt-box .num{display:block; font-family:var(--font); color:var(--pink001); font-weight:normal; font-size:18px; line-height:1; margin-bottom:10px;}
-#sec04 ul.work-list li .work-con .txt-box h5{color:#222; font-weight:500; font-size:38px; line-height:1.35; margin-bottom:15px; letter-spacing:-0.02em;}
+#sec04 ul.work-list li .work-con .txt-box h5{color:#333; font-weight:500; font-size:36px; line-height:1.3; margin-bottom:15px; letter-spacing:-0.02em;}
 #sec04 ul.work-list li .work-con .txt-box h5 b{font-weight:800;}
 #sec04 ul.work-list li .work-con .txt-box h5 small{display:block; font-weight:500; font-size:0.75em;}
-#sec04 ul.work-list li .work-con .txt-box p{color:#555; font-weight:400; font-size:19px; line-height:1.45; letter-spacing:-0.025em; margin-bottom:5px;}
+#sec04 ul.work-list li .work-con .txt-box p{color:#555; font-weight:400; font-size:18.5px; line-height:1.5; letter-spacing:-0.025em; margin-bottom:5px;}
 #sec04 ul.work-list li .work-con .part-con{position:absolute; right:0; bottom:15px; opacity:.9;}
 #sec04 ul.work-list li .work-con .part-con dl + dl{margin-top:12px;}
-#sec04 ul.work-list li .work-con .part-con dl dt{width:105px;}
-#sec04 ul.work-list li .work-con .part-con dl dd{width:270px;}
+#sec04 ul.work-list li .work-con .part-con dl dt{width:85px; font-weight:500; font-size: 16px;}
+#sec04 ul.work-list li .work-con .part-con dl dd{width:250px; font-size: 16px;}
