@@ -154,10 +154,10 @@ a.site-btn:hover:after{width:220px;height:220px;opacity:.3;}
 #sec03 #over .over-bg img{width:100%;}
 
 #sec03 #over .over_wr{position:relative;}
-#sec03 #over .over_wr span{display:block; color:var(--proj001); font-weight:600; font-size:22px; line-height:1; margin-top: 60px; transition-delay:.3s;}
-#sec03 #over .over_wr h2.ov-tit{color:#222; font-weight:400; font-size:42px; line-height:1.35; margin:15px 0 35px; letter-spacing:-0.02em; transition-delay:.5s;}
+#sec03 #over .over_wr span{display:block; color:var(--proj001); font-weight:600; font-size:22px; line-height:1; margin-top: 60px; transition-delay:.4s;}
+#sec03 #over .over_wr h2.ov-tit{color:#222; font-weight:400; font-size:42px; line-height:1.35; margin:15px 0 35px; letter-spacing:-0.02em; transition-delay:.6s;}
 #sec03 #over .over_wr h2.ov-tit b{font-weight:800;}
-#sec03 #over .over_wr p.ov-cont{width:520px; color:#222; font-weight:400; font-size:19px; line-height:1.75; transition-delay:.7s;}
+#sec03 #over .over_wr p.ov-cont{width:520px; color:#222; font-weight:400; font-size:19px; line-height:1.75; transition-delay:.8s;}
 
 
 /* 프로젝트별 포인트컬러 */
@@ -187,21 +187,21 @@ a.site-btn:hover:after{width:220px;height:220px;opacity:.3;}
 .over-bg .obj-img .obj{position:absolute; display:inline-block;}
 .over-bg .obj-img .obj img{max-width:100%;}
 
-.over-bg .obj-img .obj-1{opacity:0; top:50%; left:50%; transform:translate(-50%, -50%); transition:.8s; transition-delay:.1s;}
+.over-bg .obj-img .obj-1{opacity:0; top:50%; left:50%; transform:translate(-50%, -50%); transition:.8s; transition-delay:.2s;}
 .over-bg .obj-img.in-view .obj-1{opacity:1; top:-423px; left:1046px; transform:translate(0%, 0%);}
-.over-bg .obj-img .obj-2{opacity:0; top:50%; left:50%; transform:translate(50%, -50%); transition:.8s; transition-delay:.2s;}
+.over-bg .obj-img .obj-2{opacity:0; top:50%; left:50%; transform:translate(50%, -50%); transition:.8s; transition-delay:.3s;}
 .over-bg .obj-img.in-view .obj-2{opacity:1; top:71px; left:761px; transform:translate(0%, 0%);}
-.over-bg .obj-img .obj-3{opacity:0; bottom:0%; left:50%; transform:translate(50%, 50%); transition:.8s; transition-delay:.3s;}
+.over-bg .obj-img .obj-3{opacity:0; bottom:0%; left:50%; transform:translate(50%, 50%); transition:.8s; transition-delay:.4s;}
 .over-bg .obj-img.in-view .obj-3{opacity:1; bottom:-331px; left:475px; transform:translate(0%, 0%);}
-.over-bg .obj-img .obj-4{opacity:0; top:50%; right:50%; transform:translate(50%, -50%); transition:.8s; transition-delay:.4s;}
+.over-bg .obj-img .obj-4{opacity:0; top:50%; right:50%; transform:translate(50%, -50%); transition:.8s; transition-delay:.5s;}
 .over-bg .obj-img.in-view .obj-4{opacity:1; top:-402px; right:-290px; transform:translate(0%, 0%);}
-.over-bg .obj-img .obj-5{opacity:0; top:50%; right:50%; transform:translate(50%, -50%); transition:.8s; transition-delay:.5s;}
+.over-bg .obj-img .obj-5{opacity:0; top:50%; right:50%; transform:translate(50%, -50%); transition:.8s; transition-delay:.9s;}
 .over-bg .obj-img.in-view .obj-5{opacity:1; top:92px; right:-5px; transform:translate(0%, 0%);}
-.over-bg .obj-img .obj-6{opacity:0; bottom:0%; right:0%; transform:translate(0%, 50%); transition:.8s; transition-delay:.97s;}
+.over-bg .obj-img .obj-6{opacity:0; bottom:0%; right:0%; transform:translate(0%, 50%); transition:.8s; transition-delay:1s;}
 .over-bg .obj-img.in-view .obj-6{opacity:1; bottom:-352px; right:281px; transform:translate(0%, 0%);}
-.over-bg .obj-img .obj-7{opacity:0; top:50%; right:50%; transform:translate(50%, -50%); transition:.8s; transition-delay:.6s;}
+.over-bg .obj-img .obj-7{opacity:0; top:50%; right:50%; transform:translate(50%, -50%); transition:.8s; transition-delay:.7s;}
 .over-bg .obj-img.in-view .obj-7{opacity:1; top:36px; right:-567px; transform:translate(0%, 0%);}
-.over-bg .obj-img .obj-8{opacity:0; bottom:50%; right:0%; transform:translate(50%, 50%); transition:.8s; transition-delay:8s;}
+.over-bg .obj-img .obj-8{opacity:0; bottom:50%; right:0%; transform:translate(50%, 50%); transition:.8s; transition-delay:9s;}
 .over-bg .obj-img.in-view .obj-8{opacity:1; bottom:-296px; right:-282px; transform:translate(0%, 0%);}
 
 
@@ -275,4 +275,6 @@ a.site-btn:hover:after{width:220px;height:220px;opacity:.3;}
 	75%{right:-45px;}
 }
 
+#sec01.end .end_wr.ani .cover-bot{transform:translateX(-15px); opacity:0;}
+#sec01.end .end_wr.ani.in-view .cover-bot{transform:translateX(0px); opacity:1; transition:all 1s;}
 
