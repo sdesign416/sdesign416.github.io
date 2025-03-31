@@ -192,11 +192,15 @@
 							<span>&nbsp;01.</span>
 							<h4>신소재공학부<small>고려대학교</small><small class="sub-txt">반응형홈페이지 제작</small></h4>
 						</div>
-						<a href="https://mse.korea.ac.kr" target="_blank" class="mc-btn"><p>View Site</p></a>
+						<a href="https://mse.korea.ac.kr" target="_blank" class="site-btn"><p>View Site</p></a>
 						<div class="mc-cont part-con">
 							<dl>
 								<dt>Works</dt>
-								<dd>기여도 100% / 그누보드 제작</dd>
+								<dd>기여도 100%</dd>
+							</dl>
+							<dl>
+								<dt>Area</dt>
+								<dd>기획, 디자인, 코딩 (그누보드 제작)</dd>
 							</dl>
 							<dl>
 								<dt>Date</dt>
@@ -266,11 +270,15 @@
 							<span>&nbsp;02.</span>
 							<h4>기계공학트랙<small>디지스트 기계공학</small><small class="sub-txt">반응형홈페이지 제작</small></h4>
 						</div>
-						<a href="http://medgist.dsso.kr" target="_blank" class="mc-btn"><p>View Site</p></a>
+						<a href="http://medgist.dsso.kr" target="_blank" class="site-btn"><p>View Site</p></a>
 						<div class="mc-cont part-con">
 							<dl>
 								<dt>Works</dt>
-								<dd>기여도 100% / 그누보드 제작</dd>
+								<dd>기여도 100%</dd>
+							</dl>
+							<dl>
+								<dt>Area</dt>
+								<dd>기획, 디자인, 코딩-풀페이지 제작 (그누보드 제작)</dd>
 							</dl>
 							<dl>
 								<dt>Date</dt>
@@ -338,11 +346,15 @@
 							<span>03.</span>
 							<h4>MKB<small>미래역량교육</small><small class="sub-txt">반응형홈페이지 제작</small></h4>
 						</div>
-						<a href="https://nextlevel-mkb.com" target="_blank" class="mc-btn"><p>View Site</p></a>
+						<a href="https://nextlevel-mkb.com" target="_blank" class="site-btn"><p>View Site</p></a>
 						<div class="mc-cont part-con">
 							<dl>
 								<dt>Works</dt>
-								<dd>기여도 100% / 그누보드 제작</dd>
+								<dd>기여도 100%</dd>
+							</dl>
+							<dl>
+								<dt>Area</dt>
+								<dd>기획, 디자인, 코딩 (그누보드 제작)</dd>
 							</dl>
 							<dl>
 								<dt>Date</dt>
@@ -410,11 +422,15 @@
 							<span>&nbsp;04.</span>
 							<h4>플로우닉스<small>의료영상 기반 혈류진단기업</small><small class="sub-txt">반응형홈페이지 제작</small></h4>
 						</div>
-						<a href="https://flonics.co.kr" target="_blank" class="mc-btn"><p>View Site</p></a>
+						<a href="https://flonics.co.kr" target="_blank" class="site-btn"><p>View Site</p></a>
 						<div class="mc-cont part-con">
 							<dl>
 								<dt>Works</dt>
-								<dd>기여도 100% / 그누보드 제작</dd>
+								<dd>기여도 100%</dd>
+							</dl>
+							<dl>
+								<dt>Area</dt>
+								<dd>기획, 디자인, 코딩 (그누보드 제작)</dd>
 							</dl>
 							<dl>
 								<dt>Date</dt>
@@ -479,23 +495,23 @@
             <div class="w1580 work_wr">
 				<h3 class="work-tit">More Projects</h3>
 				<ul class="work-list">
-					<li>
+					<li><!-- 1.서울창조 -->
 						<div class="work-thum">
 							<div class="th-mouse">
 								<div class="th-arrow"></div>
 								<span>Mouse over the image</span>
 							</div>
 							<div class="th-img">
-								<a href="https://scceioi.kr"><p>View Site</p></a>
+								<a href="https://scceioi.kr" target="_blank" class="site-btn" style="background-color: #ff007d;"><p>View Site</p></a>
 								<div class="view-scroll" style="background-image:url('./images/work01.jpg');"></div>	
 							</div>
 						</div>
 						<div class="work-con">
 							<div class="txt-box">
-								<span class="num" style="color:#121212">No.<i>01</i></span>
-								<h5>서울창조경제혁신센터 <b>오픈 이노베이션</b> <small>홈페이지 기획 및 시안</small></h5>
+								<span class="num" style="color: #ff007d">No.<i>01</i></span>
+								<h5>서울창조경제혁신센터 <b>오픈이노베이션</b> <small>홈페이지 기획 및 시안</small></h5>
 								<p>
-									차원이 다른 오픈이노베이션을 표현하기 위해 다양한 스크립트를 활용하여 시각적 흥미를 유도했습니다. 
+									차원이 다른 오픈이노베이션을 표현하기 위해 다양한 스크립트를 활용하여 시각적 흥미를 유도하였습니다.
 									진행 중인 밋업과 마감된 밋업을 구분하여 사용자 편의성을 높였으며, 다크톤 배경에 포인트 컬러를 사용해 전문적이고 혁신적인 이미지를 전달합니다.
 								</p>
 							</div>
@@ -505,7 +521,7 @@
 									<dd>기여도 30%</dd>
 								</dl>
 								<dl>
-									<dt>Detail</dt>
+									<dt>Area</dt>
 									<dd>기획 및 시안, 주요 스크립트 코딩</dd>
 								</dl>
 								<!--<dl>
@@ -522,20 +538,20 @@
 							</div>
 						</div>
 					</li>
-					<li>
+					<li><!-- 2.펫인가든 -->
 						<div class="work-thum">
 							<div class="th-mouse">
 								<div class="th-arrow"></div>
 								<span>Mouse over the image</span>
 							</div>
 							<div class="th-img">
-								<a href="#"><p>View Site</p></a>
+								<a href="http://petingarden.kr" target="_blank" class="site-btn" style="background-color: #0a6622;"><p>View Site</p></a>
 								<div class="view-scroll" style="background-image:url('./images/work02.jpg');"></div>	
 							</div>
 						</div>
 						<div class="work-con">
 							<div class="txt-box">
-								<span class="num" style="color:#121212">No.<i>02</i></span>
+								<span class="num" style="color: #0a6622;">No.<i>02</i></span>
 								<h5>에프오엔 <b>펫인가든</b> <small>반응형 홈페이지 제작</small></h5>
 								<p>
 									반려견을 위한 제품을 만드는 회사로, 귀엽고 친근한 느낌을 주기 위해 밝고 따뜻한 컬러와 이미지를 선택했습니다. 
@@ -545,7 +561,445 @@
 							<div class="part-con">
 								<dl>
 									<dt>Works</dt>
-									<dd>기여도 100% / 그누보드 제작</dd>
+									<dd>기여도 100%</dd>
+								</dl>
+								<dl>
+									<dt>Date</dt>
+									<dd>2024. 10 ~ 2024. 12 (약 3개월)</dd>
+								</dl>
+								<dl>
+									<dt>Toll</dt>
+									<dd class="keyword">
+										<span>Photoshop</span>
+										<span>EditPlus</span>
+									</dd>
+								</dl>
+							</div>
+						</div>
+					</li>
+					<li><!-- 3.강희민교수님 -->
+						<div class="work-thum">
+							<div class="th-mouse">
+								<div class="th-arrow"></div>
+								<span>Mouse over the image</span>
+							</div>
+							<div class="th-img">
+								<a href="https://dynamicnano.org" target="_blank" class="site-btn" style="background-color: #b14d5e;"><p>View Site</p></a>
+								<div class="view-scroll" style="background-image:url('./images/work03.jpg');"></div>	
+							</div>
+						</div>
+						<div class="work-con">
+							<div class="txt-box">
+								<span class="num" style="color: #b14d5e;">No.<i>03</i></span>
+								<h5>고려대학교 <b>강희민교수님</b> 연구실 <small>반응형 홈페이지 제작</small></h5>
+								<p>
+									선을 활용한 디자인으로 콘텐츠별로 영역을 구분하고 세련된 느낌을 부여하여 전문성을 강조하였으며,
+									연구실의 대표 연구 분야를 한눈에 알아볼 수 있도록 직관적인 디자인을 적용하였습니다. 
+								</p>
+							</div>
+							<div class="part-con">
+								<dl>
+									<dt>Works</dt>
+									<dd>기여도 100%</dd>
+								</dl>
+								<dl>
+									<dt>Date</dt>
+									<dd>2024.09 ~ 2024. 11 (약 3개월)</dd>
+								</dl>
+								<dl>
+									<dt>Toll</dt>
+									<dd class="keyword">
+										<span>Photoshop</span>
+										<span>EditPlus</span>
+									</dd>
+								</dl>
+							</div>
+						</div>
+					</li>
+					<li><!-- 4.카이스트 줄기세포 -->
+						<div class="work-thum">
+							<div class="th-mouse">
+								<div class="th-arrow"></div>
+								<span>Mouse over the image</span>
+							</div>
+							<div class="th-img">
+								<a href="https://scrb.kaist.ac.kr" target="_blank" class="site-btn" style="background-color: #004da3;"><p>View Site</p></a>
+								<div class="view-scroll" style="background-image:url('./images/work04.jpg');"></div>	
+							</div>
+						</div>
+						<div class="work-con">
+							<div class="txt-box">
+								<span class="num" style="color: #004da3;">No.<i>04</i></span>
+								<h5>카이스트 <b>줄기세포</b> 및 <b>재생생물학</b> 대학원 <small>반응형 홈페이지 제작</small></h5>
+								<p>
+									줄기세포를 연상시키는 디자인과 이펙트를 통해 시각적 아이덴티티를 부여함과 동시에
+									다양한 컬러와 불규칙적인 도형을 사용하여 줄기세포의 복잡성과 혁신성을 효과적으로 표현하였습니다.
+								</p>
+							</div>
+							<div class="part-con">
+								<dl>
+									<dt>Works</dt>
+									<dd>기여도 100%</dd>
+								</dl>
+								<dl>
+									<dt>Date</dt>
+									<dd>2024. 07 ~ 2024. 10 (약 4개월)</dd>
+								</dl>
+								<dl>
+									<dt>Toll</dt>
+									<dd class="keyword">
+										<span>Photoshop</span>
+										<span>EditPlus</span>
+									</dd>
+								</dl>
+							</div>
+						</div>
+					</li>
+					<li><!-- 5.건물형 태양광산업 -->
+						<div class="work-thum">
+							<div class="th-mouse">
+								<div class="th-arrow"></div>
+								<span>Mouse over the image</span>
+							</div>
+							<div class="th-img">
+								<a href="#" target="_blank" class="site-btn" style="background-color: #00a88b;"><p>View Site</p></a>
+								<div class="view-scroll" style="background-image:url('./images/work05.jpg');"></div>	
+							</div>
+						</div>
+						<div class="work-con">
+							<div class="txt-box">
+								<span class="num" style="color: #00a88b;">No.<i>05</i></span>
+								<h5>건물형 <b>태양광산업</b> 생태계 대응 <small>반응형 홈페이지 제작</small></h5>
+								<p>
+									4개의 대학이 협력하여 추진하는 사업의 특징을 이해하기 쉽게 다이어그램 디자인으로 구성하였으며,  
+									태양광 산업과 응용 분야에 대한 이해도를 높일 수 있도록 간소화된 디자인과 조화로운 컬러를 사용했습니다.
+								</p>
+							</div>
+							<div class="part-con">
+								<dl>
+									<dt>Works</dt>
+									<dd>기여도 90%</dd>
+								</dl>
+								<dl>
+									<dt>Area</dt>
+									<dd>기획 및 시안, 코딩(수강신청 프로그램 제외)</dd>
+								</dl>
+								<dl>
+									<dt>Date</dt>
+									<dd>2024. 07 ~ 2024. 10 (약 4개월)</dd>
+								</dl>
+								<dl>
+									<dt>Toll</dt>
+									<dd class="keyword">
+										<span>Photoshop</span>
+										<span>EditPlus</span>
+									</dd>
+								</dl>
+							</div>
+						</div>
+					</li>
+					<li><!-- 6.카이스트 MII -->
+						<div class="work-thum">
+							<div class="th-mouse">
+								<div class="th-arrow"></div>
+								<span>Mouse over the image</span>
+							</div>
+							<div class="th-img">
+								<a href="https://mii.kaist.ac.kr/" target="_blank" class="site-btn" style="background-color: #04729f;"><p>View Site</p></a>
+								<div class="view-scroll" style="background-image:url('./images/work06.jpg');"></div>	
+							</div>
+						</div>
+						<div class="work-con">
+							<div class="txt-box">
+								<span class="num" style="color: #04729f;">No.<i>06</i></span>
+								<h5>카이스트 <b>MII</b> 연구실 <small>반응형 홈페이지 제작</small></h5>
+								<p>
+									두 개의 주요 연구 분야를 효과적으로 표현하기 위해 다양한 이펙트를 활용하였으며, 
+									연구실의 전문성을 강조하기 위해 적절한 컬러와 스크립트를 사용하여 신뢰감을 주는 디자인으로 제작하였습니다.
+								</p>
+							</div>
+							<div class="part-con">
+								<dl>
+									<dt>Works</dt>
+									<dd>기여도 100%</dd>
+								</dl>
+								<dl>
+									<dt>Date</dt>
+									<dd>2024. 03 ~ 2024. 07 (약 4.5개월)</dd>
+								</dl>
+								<dl>
+									<dt>Toll</dt>
+									<dd class="keyword">
+										<span>Photoshop</span>
+										<span>EditPlus</span>
+									</dd>
+								</dl>
+							</div>
+						</div>
+					</li>
+					<li><!-- 7.창업지원팀 -->
+						<div class="work-thum">
+							<div class="th-mouse">
+								<div class="th-arrow"></div>
+								<span>Mouse over the image</span>
+							</div>
+							<div class="th-img">
+								<a href="https://startup.postech.ac.kr" target="_blank" class="site-btn" style="background-color: #ca0464;"><p>View Site</p></a>
+								<div class="view-scroll" style="background-image:url('./images/work07.jpg');"></div>	
+							</div>
+						</div>
+						<div class="work-con">
+							<div class="txt-box">
+								<span class="num" style="color: #ca0464;">No.<i>07</i></span>
+								<h5>포항공대 <b>창업지원팀</b> <small>반응형 홈페이지 제작</small></h5>
+								<p>
+									창업지원팀의 발전과 미래 사회의 키워드에 중점을 두어 선이 그려지는 이펙트를 사용하였으며,
+									미래를 향해 나아가는 스타트업의 이미지를 표현하기 위해 둥근 요소의 디자인을 주로 사용하고, 다양한 스크립트를 통해 발전 가능성을 강조하였습니다.
+								</p>
+							</div>
+							<div class="part-con">
+								<dl>
+									<dt>Works</dt>
+									<dd>기여도 100%</dd>
+								</dl>
+								<dl>
+									<dt>Date</dt>
+									<dd>2024. 01 ~ 2024. 03 (약 3개월)</dd>
+								</dl>
+								<dl>
+									<dt>Toll</dt>
+									<dd class="keyword">
+										<span>Photoshop</span>
+										<span>EditPlus</span>
+									</dd>
+								</dl>
+							</div>
+						</div>
+					</li>
+					<li><!-- 8.전남대 공정혁신 -->
+						<div class="work-thum">
+							<div class="th-mouse">
+								<div class="th-arrow"></div>
+								<span>Mouse over the image</span>
+							</div>
+							<div class="th-img">
+								<a href="https://cpis.or.kr/" target="_blank" class="site-btn" style="background-color: #033492;"><p>View Site</p></a>
+								<div class="view-scroll" style="background-image:url('./images/work08.jpg');"></div>	
+							</div>
+						</div>
+						<div class="work-con">
+							<div class="txt-box">
+								<span class="num" style="color: #033492;">No.<i>08</i></span>
+								<h5>전남대학교 <b>공정혁신 시뮬레이션센터</b> <small>반응형 홈페이지 제작</small></h5>
+								<p>
+									시뮬레이션 분야를 직관적이고 설계적으로 표현하기 위해 적합한 배경 이미지를 사용하였으며, 
+									메타버스의 가상공간을 표현하기 위해 불규칙 속의 규칙성을 가진 이미지 레이아웃과 이펙트를 활용하여 시각적 흥미를 유도할 수 있도록 제작하였습니다.
+								</p>
+							</div>
+							<div class="part-con">
+								<dl>
+									<dt>Works</dt>
+									<dd>기여도 90%</dd>
+								</dl>
+								<dl>
+									<dt>Area</dt>
+									<dd>기획 및 시안, 코딩(회원전용 프로그램 제외)</dd>
+								</dl>
+								<dl>
+									<dt>Date</dt>
+									<dd>2023. 10 ~ 2024. 02 (약 4개월)</dd>
+								</dl>
+								<dl>
+									<dt>Toll</dt>
+									<dd class="keyword">
+										<span>Photoshop</span>
+										<span>EditPlus</span>
+									</dd>
+								</dl>
+							</div>
+						</div>
+					</li>
+					<li><!-- 9.거우인터네셔널 -->
+						<div class="work-thum">
+							<div class="th-mouse">
+								<div class="th-arrow"></div>
+								<span>Mouse over the image</span>
+							</div>
+							<div class="th-img">
+								<a href="http://www.guowoo.co.kr/" target="_blank" class="site-btn" style="background-color: #836736;"><p>View Site</p></a>
+								<div class="view-scroll" style="background-image:url('./images/work09.jpg');"></div>	
+							</div>
+						</div>
+						<div class="work-con">
+							<div class="txt-box">
+								<span class="num" style="color: #836736;">No.<i>09</i></span>
+								<h5>주식회사 <b>거우인터네셔널</b> <small>반응형 홈페이지 제작</small></h5>
+								<p>
+									성인 의류부터 아동 의류까지 다양한 니트 의류를 생산 및 판매하는 업체로, 니트의 짜임을 연상시키는 디자인을 적용하였으며, 
+									풀페이지 기법을 활용하여 섹션별로 관련 정보를 효과적으로 제공할 수 있도록 제작하였습니다.
+								</p>
+							</div>
+							<div class="part-con">
+								<dl>
+									<dt>Works</dt>
+									<dd>기여도 100%</dd>
+								</dl>
+								<dl>
+									<dt>Date</dt>
+									<dd>2023. 12 ~ 2024. 01 (약 2개월)</dd>
+								</dl>
+								<dl>
+									<dt>Toll</dt>
+									<dd class="keyword">
+										<span>Photoshop</span>
+										<span>EditPlus</span>
+									</dd>
+								</dl>
+							</div>
+						</div>
+					</li>
+					<li><!-- 10.스마트모빌리티공동학과 -->
+						<div class="work-thum">
+							<div class="th-mouse">
+								<div class="th-arrow"></div>
+								<span>Mouse over the image</span>
+							</div>
+							<div class="th-img">
+								<a href="http://mobility.ac.kr/index.php" target="_blank" class="site-btn" style="background-color: #003875;"><p>View Site</p></a>
+								<div class="view-scroll" style="background-image:url('./images/work10.jpg');"></div>	
+							</div>
+						</div>
+						<div class="work-con">
+							<div class="txt-box">
+								<span class="num" style="color: #003875;">No.<i>10</i></span>
+								<h5><b>스마트모빌리티</b>공동학과 <small>반응형 홈페이지 제작</small></h5>
+								<p>
+									3개의 대학이 공동으로 개설하는 학과를 큐브 형태로 표현하여 큐브 이미지와 모션을 적극 활용하였으며,
+									모빌리티를 효과적으로 전달하기 위해 이미지와 아이콘을 동적으로 표현하였습니다.
+								</p>
+							</div>
+							<div class="part-con">
+								<dl>
+									<dt>Works</dt>
+									<dd>기여도 100%</dd>
+								</dl>
+								<dl>
+									<dt>Date</dt>
+									<dd>2023. 08 ~ 2023. 09 (약 1.5개월)</dd>
+								</dl>
+								<dl>
+									<dt>Toll</dt>
+									<dd class="keyword">
+										<span>Photoshop</span>
+										<span>EditPlus</span>
+									</dd>
+								</dl>
+							</div>
+						</div>
+					</li>
+					<li><!-- 11.배터리-스마트팩토리학과 -->
+						<div class="work-thum">
+							<div class="th-mouse">
+								<div class="th-arrow"></div>
+								<span>Mouse over the image</span>
+							</div>
+							<div class="th-img">
+								<a href="http://bsf.korea.ac.kr/" target="_blank" class="site-btn" style="background-color: #9c0015;"><p>View Site</p></a>
+								<div class="view-scroll" style="background-image:url('./images/work11.jpg');"></div>	
+							</div>
+						</div>
+						<div class="work-con">
+							<div class="txt-box">
+								<span class="num" style="color: #9c0015;">No.<i>11</i></span>
+								<h5>고려대 <b>배터리-스마트팩토리학과</b> <small>반응형 홈페이지 제작</small></h5>
+								<p>
+									배터리 공학과 스마트팩토리 전공을 각각 표현하되, 하나의 학과로 통합된 느낌을 주는 다이어그램을 제작하였습니다. 
+									각 전공을 섹션으로 나누어 세부 분야를 명확히 표현하고, 배터리와 스마트팩토리를 효과적으로 드러낼 수 있는 디자인 요소를 사용하였습니다.
+								</p>
+							</div>
+							<div class="part-con">
+								<dl>
+									<dt>Works</dt>
+									<dd>기여도 100%</dd>
+								</dl>
+								<dl>
+									<dt>Date</dt>
+									<dd>2023. 03 ~ 2023. 08 (약 5개월)</dd>
+								</dl>
+								<dl>
+									<dt>Toll</dt>
+									<dd class="keyword">
+										<span>Photoshop</span>
+										<span>EditPlus</span>
+									</dd>
+								</dl>
+							</div>
+						</div>
+					</li>
+					<li><!-- 12.연세대학교 시스템반도체학과 -->
+						<div class="work-thum">
+							<div class="th-mouse">
+								<div class="th-arrow"></div>
+								<span>Mouse over the image</span>
+							</div>
+							<div class="th-img">
+								<a href="https://system.yonsei.ac.kr/" target="_blank" class="site-btn" style="background-color: #0044c1;"><p>View Site</p></a>
+								<div class="view-scroll" style="background-image:url('./images/work12.jpg');"></div>	
+							</div>
+						</div>
+						<div class="work-con">
+							<div class="txt-box">
+								<span class="num" style="color: #0044c1;">No.<i>12</i></span>
+								<h5>연세대학교 <b>시스템반도체공학과</b> <small>반응형 홈페이지 제작</small></h5>
+								<p>
+									반도체의 미래 산업 기술을 표현하기 위해 네비게이션 바와 아이콘을 활용하였습니다.
+									반도체의 각진 느낌을 강조하고, 데이터를 쌓듯이 레이아웃을 구성하여 반도체의 특성을 효과적으로 전달하고
+									이펙트 효과를 추가해 정적인 느낌을 완화하고 동적인 요소를 더했습니다.
+								</p>
+							</div>
+							<div class="part-con">
+								<dl>
+									<dt>Works</dt>
+									<dd>기여도 100%</dd>
+								</dl>
+								<dl>
+									<dt>Date</dt>
+									<dd>2023. 02 ~ 2023. 07 (약 5개월)</dd>
+								</dl>
+								<dl>
+									<dt>Toll</dt>
+									<dd class="keyword">
+										<span>Photoshop</span>
+										<span>EditPlus</span>
+									</dd>
+								</dl>
+							</div>
+						</div>
+					</li>
+					<li><!-- 13.대구전문장례식장 -->
+						<div class="work-thum">
+							<div class="th-mouse">
+								<div class="th-arrow"></div>
+								<span>Mouse over the image</span>
+							</div>
+							<div class="th-img">
+								<a href="http://www.daegu-fn.com" target="_blank" class="site-btn" style="background-color: #82725a;"><p>View Site</p></a>
+								<div class="view-scroll" style="background-image:url('./images/work13.jpg');"></div>	
+							</div>
+						</div>
+						<div class="work-con">
+							<div class="txt-box">
+								<span class="num" style="color: #82725a;">No.<i>13</i></span>
+								<h5><b>대구전문장례식장 </b> <small>반응형 홈페이지 제작</small></h5>
+								<p>
+									장례식장에 적합한 정적인 컬러를 사용하여 분위기를 조성하였습니다. 
+									웹사이트 이용자를 고려한 직관적인 디자인을 통해 편리성을 높였으며, 오시는 길을 상세하게 설명하되 알아보기 쉽게 제작하여 사용자 친화성을 강화하였습니다.
+								</p>
+							</div>
+							<div class="part-con">
+								<dl>
+									<dt>Works</dt>
+									<dd>기여도 100%</dd>
 								</dl>
 								<dl>
 									<dt>Date</dt>
