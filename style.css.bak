@@ -99,6 +99,7 @@
 	#sec02 .intro-right ul li:nth-child(5) dl dd span.in-view.bar02{width:90%;}/* 포토샵 */
 	#sec02 .intro-right ul li:nth-child(5) dl dd span.in-view.bar03{width:50%;}/* 피그마 */
 	#sec02 .intro-right ul li:nth-child(5) dl dd span.in-view.bar04{width:90%;}/* html.css */
+	#sec02 .intro-right ul li:nth-child(5) dl dd span.in-view.bar05{width:85%;}/* 그누보드 */
 
 /* 기여도, 링크버튼 */
 .part-con{position:relative;}
