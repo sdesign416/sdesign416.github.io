@@ -99,6 +99,7 @@
 	#sec02 .intro-right ul li:nth-child(5) dl dd span.in-view.bar02{width:90%;}/* 포토샵 */
 	#sec02 .intro-right ul li:nth-child(5) dl dd span.in-view.bar03{width:50%;}/* 피그마 */
 	#sec02 .intro-right ul li:nth-child(5) dl dd span.in-view.bar04{width:90%;}/* html.css */
+	#sec02 .intro-right ul li:nth-child(5) dl dd span.in-view.bar05{width:85%;}/* 그누보드 */
 
 /* 기여도, 링크버튼 */
 .part-con{position:relative;}
@@ -113,6 +114,8 @@ a.site-btn{position:relative; display:inline-block; padding:13px 70px; border-ra
 a.site-btn p{position:relative; display:inline-block; font-size:16px; font-weight:500; color:#fff; line-height:1; z-index:5; white-space:nowrap}
 a.site-btn:after{content: "";transition: all .4s;display: block;background:#000;opacity:0;width:0px;height:0px;position: absolute;transform:translate(-50%, -50%);left:50%;top:50%;border-radius:100%;z-index: 1;}
 a.site-btn:hover:after{width:220px;height:220px;opacity:.3;}
+
+
 
 /* 주요프로젝트 */
 #sec03{position:relative; background-color:#fff;}
