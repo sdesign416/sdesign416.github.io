@@ -191,11 +191,11 @@ a.site-btn:hover:after{width:220px;height:220px;opacity:.3;}
 #sec04 .work_wr{position:relative;}
 #sec04 h3.work-tit{position:relative; display:block; font-family:var(--font); color:var(--pink001); font-weight:normal; font-size:62px; line-height:1; text-align:center; padding-top:30px;}
 #sec04 h3.work-tit::before{position:absolute; content:''; display:block; width:90px; height:3px; background-color:var(--pink001); top:0; left:50%; transform:translateX(-50%);}
-#sec04 ul.work-list{position: relative; margin-top: 120px;}
+#sec04 ul.work-list{position: relative; margin-top: 100px;}
 #sec04 ul.work-list li{position:relative;display:flex; width:100%; padding:0 45px 25px; box-sizing: border-box; border-radius:20px; box-shadow: 0px 10px 30px 0px rgb(0 0 0 / 20%);}
-#sec04 ul.work-list li + li{margin-top:115px;}
+#sec04 ul.work-list li + li{margin-top:95px;}
 #sec04 ul.work-list li .work-thum{position:relative; display:block; transform:translateY(-40px)}
-#sec04 ul.work-list li .work-thum .th-img{position:relative; display:block; width:350px; height:360px; overflow: hidden; border-radius:12px; background:#000; box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 5%); border:1px solid #f9f9f9;}
+#sec04 ul.work-list li .work-thum .th-img{position:relative; display:block; width:330px; height:320px; overflow: hidden; border-radius:12px; background:#000; box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 5%); border:1px solid #f9f9f9;}
 #sec04 ul.work-list li .work-thum .th-img a.site-btn{position:absolute; margin:0 auto; background:var(--pink001); left: 50%; top: 50%; transform: translate(-50%, -50%); opacity:0; transition: 0.4s; transition-delay:.15s; z-index:5;}
 #sec04 ul.work-list li .work-thum .th-img a.site-btn:after{background:#fff;}
 #sec04 ul.work-list li .work-thum .th-img:hover a.site-btn{opacity:1;}
@@ -213,14 +213,14 @@ a.site-btn:hover:after{width:220px;height:220px;opacity:.3;}
 	60% {transform:translateY(-2px); opacity:1;}
 }
 
-#sec04 ul.work-list li .work-con{position:relative; width:calc(100% - 350px); padding:60px 55px; box-sizing: border-box}
+#sec04 ul.work-list li .work-con{position:relative; width:calc(100% - 330px); padding:50px 0 0 50px; box-sizing: border-box}
 #sec04 ul.work-list li .work-con .txt-box{position:relative; width:65%;}
 #sec04 ul.work-list li .work-con .txt-box .num{display:block; font-family:var(--font); color:var(--pink001); font-weight:normal; font-size:18px; line-height:1; margin-bottom:10px;}
 #sec04 ul.work-list li .work-con .txt-box h5{color:#333; font-weight:500; font-size:36px; line-height:1.3; margin-bottom:15px; letter-spacing:-0.02em;}
 #sec04 ul.work-list li .work-con .txt-box h5 b{font-weight:800;}
 #sec04 ul.work-list li .work-con .txt-box h5 small{display:block; font-weight:500; font-size:0.75em;}
 #sec04 ul.work-list li .work-con .txt-box p{color:#555; font-weight:400; font-size:18.5px; line-height:1.5; letter-spacing:-0.025em; margin-bottom:5px;}
-#sec04 ul.work-list li .work-con .part-con{position:absolute; right:0; bottom:15px; opacity:.9;}
+#sec04 ul.work-list li .work-con .part-con{position:absolute; right:-10px; bottom:15px; opacity:.9;}
 #sec04 ul.work-list li .work-con .part-con dl + dl{margin-top:12px;}
 #sec04 ul.work-list li .work-con .part-con dl dt{width:85px; font-weight:500; font-size: 16px;}
 #sec04 ul.work-list li .work-con .part-con dl dd{width:250px; font-size: 16px;}
