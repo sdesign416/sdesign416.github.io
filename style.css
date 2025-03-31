@@ -275,4 +275,6 @@ a.site-btn:hover:after{width:220px;height:220px;opacity:.3;}
 	75%{right:-45px;}
 }
 
+#sec01.end .end_wr.ani .cover-bot{transform:translateX(-15px); opacity:0; transition-delay:.3s;}
+#sec01.end .end_wr.ani.in-view .cover-bot{transform:translateX(0px); opacity:1; transition:all 1s;}
 
