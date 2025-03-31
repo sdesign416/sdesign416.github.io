@@ -8,6 +8,10 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
 		<link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+
+		<!-- Splitting -->
+		<script src="./splitting/splitting.min.js?ver='.G5_JS_VER.'"></script>
+		<link rel="stylesheet" href="./splitting/splitting.css">
         <!-- pc버전 -->
         <meta name="viewport" content="width=1600">
         <!-- 카톡 공유 -->
@@ -54,7 +58,7 @@
         <section id="sec01" class="sec cover">
             <div class="w1580 cover_wr">
                 <article class="cover-top">
-                    <p>portfolio</p>
+                    <p class="ani">portfolio</p>
                     <div class="obj">
                         <span class="ani a- a-right"></span>
                         <span class="ani a- a-right"></span>
@@ -62,11 +66,11 @@
                     </div>
                 </article>
                 <article class="cover-slog tbt">
-                    <p>Breaking Digital Boundaries</p>
+                    <p data-splitting>Breaking Digital Boundaries</p>
                     <h5>
-                        <b>기술</b>과 <b>감성</b>으로<br>
-                        <b>디자인</b>의 경계를 허무는<br>
-                        디자이너 오승아입니다.
+                        <span class="ani"><b>기술</b>과 <b>감성</b>으로<br></span>
+                        <span class="ani"><b>디자인</b>의 경계를 허무는<br></span>
+                        <span class="ani">디자이너 오승아입니다.</span>
                     </h5>
                 </article>
                 <article class="cover-bot">
@@ -75,7 +79,7 @@
                         <span class="ani a- a-left"></span>
                         <span class="ani a- a-left"></span>
                     </div>
-                    <dl>
+                    <dl class="ani a- a-right">
                         <dt>Contact</dt>
                         <dd><i class="ri-phone-fill"></i><a href="tel:010.2416.3790">010.2416.3790</a></dd>
                         <dd><i class="ri-mail-fill"></i><a href="mailto:sdesign416@naver.com">sdesign416@naver.com</a></dd>
@@ -85,6 +89,8 @@
 			<div class="bg-box">
 				<img src="./images/grad-obj.png">
 			</div>
+			
+			<script> Splitting(); </script>
         </section>
         <!-- //01.표지 -->
 		
@@ -187,7 +193,7 @@
 			<section id="mock" class="sec">
 				<div class="w1680 mock_wr">
 					<p class="side-txt">Main Project 01</p>
-					<article class="mock-cont">
+					<article class="mock-cont ani a- a-up">
 						<div class="mc-tit">
 							<span>&nbsp;01.</span>
 							<h4>신소재공학부<small>고려대학교</small><small class="sub-txt">반응형홈페이지 제작</small></h4>
@@ -217,11 +223,11 @@
 						</div>
 					</article>
 					<article class="img-sec">
-						<div class="pc_wr">
+						<div class="pc_wr ani a-right">
 							<img src="./images/mockup-pc.png" class="img-mock">
 							<div class="view-scroll view-pc" style="background-image:url('./images/project01_pc.jpg');"></div>
 						</div>
-						<div class="mob_wr">
+						<div class="mob_wr ani a-down">
 							<img src="./images/mockup-mobile.png" class="img-mock">
 							<div class="view-scroll view-mob" style="background-image:url('./images/project01_mob.jpg');"></div>
 						</div>
@@ -232,15 +238,15 @@
 			<section id="over" class="sec">
 				<div class="over-bg over-bg01">
 					<!-- <img src="./images/project02_bg.png"> -->
-					<div class="obj-img">
-						<span class="obj obj-1 a- ani"><img src="./images/bg01_a.png"></span>
-						<span class="obj obj-2 a- ani"><img src="./images/bg01_b.png"></span>
-						<span class="obj obj-3 a- ani"><img src="./images/bg01_c.png"></span>
-						<span class="obj obj-4 a- ani"><img src="./images/bg01_d.png"></span>
-						<span class="obj obj-5 a- ani"><img src="./images/bg01_e.png"></span>
-						<span class="obj obj-6 a- ani"><img src="./images/bg01_f.png"></span>
-						<span class="obj obj-7 a- ani"><img src="./images/bg01_g.png"></span>
-						<span class="obj obj-8 a- ani"><img src="./images/bg01_h.png"></span>
+					<div class="obj-img ani">
+						<span class="obj obj-1"><img src="./images/bg01_a.png"></span>
+						<span class="obj obj-2"><img src="./images/bg01_b.png"></span>
+						<span class="obj obj-3"><img src="./images/bg01_c.png"></span>
+						<span class="obj obj-4"><img src="./images/bg01_d.png"></span>
+						<span class="obj obj-5"><img src="./images/bg01_e.png"></span>
+						<span class="obj obj-6"><img src="./images/bg01_f.png"></span>
+						<span class="obj obj-7"><img src="./images/bg01_g.png"></span>
+						<span class="obj obj-8"><img src="./images/bg01_h.png"></span>
 					</div>
 				</div>
 				<div class="w1680 over_wr">
@@ -265,7 +271,7 @@
 			<section id="mock" class="sec">
 				<div class="w1680 mock_wr">
 					<p class="side-txt">Main Project 02</p>
-					<article class="mock-cont">
+					<article class="mock-cont ani a- a-up">
 						<div class="mc-tit">
 							<span>&nbsp;02.</span>
 							<h4>기계공학트랙<small>디지스트 기계공학</small><small class="sub-txt">반응형홈페이지 제작</small></h4>
@@ -294,11 +300,11 @@
 						</div>
 					</article>
 					<article class="img-sec">
-						<div class="pc_wr">
+						<div class="pc_wr ani a-right">
 							<img src="./images/mockup-pc.png" class="img-mock">
 							<div class="view-scroll view-pc" style="background-image:url('./images/project02_pc.jpg');"></div>
 						</div>
-						<div class="mob_wr">
+						<div class="mob_wr ani a-down">
 							<img src="./images/mockup-mobile.png" class="img-mock">
 							<div class="view-scroll view-mob" style="background-image:url('./images/project02_mob.jpg');"></div>
 						</div>
@@ -308,15 +314,15 @@
 			<!-- 오버뷰 -->
 			<section id="over" class="sec">
 				<div class="over-bg over-bg02">
-					<div class="obj-img">
-						<span class="obj obj-1 a- ani"><img src="./images/bg02_a.png"></span>
-						<span class="obj obj-2 a- ani"><img src="./images/bg02_b.png"></span>
-						<span class="obj obj-3 a- ani"><img src="./images/bg02_c.png"></span>
-						<span class="obj obj-4 a- ani"><img src="./images/bg02_d.png"></span>
-						<span class="obj obj-5 a- ani"><img src="./images/bg02_e.png"></span>
-						<span class="obj obj-6 a- ani"><img src="./images/bg02_f.png"></span>
-						<span class="obj obj-7 a- ani"><img src="./images/bg02_g.png"></span>
-						<span class="obj obj-8 a- ani"><img src="./images/bg02_h.png"></span>
+					<div class="obj-img ani">
+						<span class="obj obj-1"><img src="./images/bg02_a.png"></span>
+						<span class="obj obj-2"><img src="./images/bg02_b.png"></span>
+						<span class="obj obj-3"><img src="./images/bg02_c.png"></span>
+						<span class="obj obj-4"><img src="./images/bg02_d.png"></span>
+						<span class="obj obj-5"><img src="./images/bg02_e.png"></span>
+						<span class="obj obj-6"><img src="./images/bg02_f.png"></span>
+						<span class="obj obj-7"><img src="./images/bg02_g.png"></span>
+						<span class="obj obj-8"><img src="./images/bg02_h.png"></span>
 					</div>
 				</div>
 				<div class="w1680 over_wr">
@@ -341,7 +347,7 @@
 			<section id="mock" class="sec">
 				<div class="w1680 mock_wr">
 					<p class="side-txt">Main Project 03</p>
-					<article class="mock-cont">
+					<article class="mock-cont ani a- a-up">
 						<div class="mc-tit">
 							<span>03.</span>
 							<h4>MKB<small>미래역량교육</small><small class="sub-txt">반응형홈페이지 제작</small></h4>
@@ -371,11 +377,11 @@
 						</div>
 					</article>
 					<article class="img-sec">
-						<div class="pc_wr">
+						<div class="pc_wr ani a-right">
 							<img src="./images/mockup-pc.png" class="img-mock">
 							<div class="view-scroll view-pc" style="background-image:url('./images/project03_pc.jpg');"></div>
 						</div>
-						<div class="mob_wr">
+						<div class="mob_wr ani a-down">
 							<img src="./images/mockup-mobile.png" class="img-mock">
 							<div class="view-scroll view-mob" style="background-image:url('./images/project03_mob.jpg');"></div>
 						</div>
@@ -385,15 +391,15 @@
 			<!-- 오버뷰 -->
 			<section id="over" class="sec">
 				<div class="over-bg over-bg03">
-					<div class="obj-img">
-						<span class="obj obj-1 a- ani"><img src="./images/bg03_a.png"></span>
-						<span class="obj obj-2 a- ani"><img src="./images/bg03_b.png"></span>
-						<span class="obj obj-3 a- ani"><img src="./images/bg03_c.png"></span>
-						<span class="obj obj-4 a- ani"><img src="./images/bg03_d.png"></span>
-						<span class="obj obj-5 a- ani"><img src="./images/bg03_e.png"></span>
-						<span class="obj obj-6 a- ani"><img src="./images/bg03_f.png"></span>
-						<span class="obj obj-7 a- ani"><img src="./images/bg03_g.png"></span>
-						<span class="obj obj-8 a- ani"><img src="./images/bg03_h.png"></span>
+					<div class="obj-img ani">
+						<span class="obj obj-1"><img src="./images/bg03_a.png"></span>
+						<span class="obj obj-2"><img src="./images/bg03_b.png"></span>
+						<span class="obj obj-3"><img src="./images/bg03_c.png"></span>
+						<span class="obj obj-4"><img src="./images/bg03_d.png"></span>
+						<span class="obj obj-5"><img src="./images/bg03_e.png"></span>
+						<span class="obj obj-6"><img src="./images/bg03_f.png"></span>
+						<span class="obj obj-7"><img src="./images/bg03_g.png"></span>
+						<span class="obj obj-8"><img src="./images/bg03_h.png"></span>
 					</div>
 				</div>
 				<div class="w1680 over_wr">
@@ -417,7 +423,7 @@
 			<section id="mock" class="sec">
 				<div class="w1680 mock_wr">
 					<p class="side-txt">Main Project 04</p>
-					<article class="mock-cont">
+					<article class="mock-cont ani a- a-up">
 						<div class="mc-tit">
 							<span>&nbsp;04.</span>
 							<h4>플로우닉스<small>의료영상 기반 혈류진단기업</small><small class="sub-txt">반응형홈페이지 제작</small></h4>
@@ -446,11 +452,11 @@
 						</div>
 					</article>
 					<article class="img-sec">
-						<div class="pc_wr">
+						<div class="pc_wr ani a-right">
 							<img src="./images/mockup-pc.png" class="img-mock">
 							<div class="view-scroll view-pc" style="background-image:url('./images/project04_pc.jpg');"></div>
 						</div>
-						<div class="mob_wr">
+						<div class="mob_wr ani a-down">
 							<img src="./images/mockup-mobile.png" class="img-mock">
 							<div class="view-scroll view-mob" style="background-image:url('./images/project04_mob.jpg');"></div>
 						</div>
@@ -460,15 +466,15 @@
 			<!-- 오버뷰 -->
 			<section id="over" class="sec">
 				<div class="over-bg over-bg04">
-					<div class="obj-img">
-						<span class="obj obj-1 a- ani"><img src="./images/bg04_a.png"></span>
-						<span class="obj obj-2 a- ani"><img src="./images/bg04_b.png"></span>
-						<span class="obj obj-3 a- ani"><img src="./images/bg04_c.png"></span>
-						<span class="obj obj-4 a- ani"><img src="./images/bg04_d.png"></span>
-						<span class="obj obj-5 a- ani"><img src="./images/bg04_e.png"></span>
-						<span class="obj obj-6 a- ani"><img src="./images/bg04_f.png"></span>
-						<span class="obj obj-7 a- ani"><img src="./images/bg04_g.png"></span>
-						<span class="obj obj-8 a- ani"><img src="./images/bg04_h.png"></span>
+					<div class="obj-img ani">
+						<span class="obj obj-1"><img src="./images/bg04_a.png"></span>
+						<span class="obj obj-2"><img src="./images/bg04_b.png"></span>
+						<span class="obj obj-3"><img src="./images/bg04_c.png"></span>
+						<span class="obj obj-4"><img src="./images/bg04_d.png"></span>
+						<span class="obj obj-5"><img src="./images/bg04_e.png"></span>
+						<span class="obj obj-6"><img src="./images/bg04_f.png"></span>
+						<span class="obj obj-7"><img src="./images/bg04_g.png"></span>
+						<span class="obj obj-8"><img src="./images/bg04_h.png"></span>
 					</div>
 				</div>
 				<div class="w1680 over_wr">
@@ -1049,35 +1055,22 @@
 
         <!-- 01.표지 -->
         <section id="sec01" class="sec end">
-            <div class="w1580 cover_wr">
-                <article class="cover-top">
-                    <div class="obj">
-                        <span class="ani a- a-right"></span>
-                        <span class="ani a- a-right"></span>
-                        <span class="ani a- a-right"></span>
-                    </div>
-                </article>
+            <div class="w1580 cover_wr end_wr">
                 <article class="end-slog">
-                    <h5>Thank you</h5>
-                    <p>
+                    <h5 class="ani a- a-down">Thank you</h5>
+                    <p class="ani a- a-down">
                         <b>소통</b>을 중시하며, <b>더욱 나은 경험</b>을 창출하는<br>
                         <b>디자이너 오승아</b>가 되겠습니다.
                     </p>
                 </article>
                 <article class="cover-bot">
-                    <div class="obj">
-                        <span class="ani a- a-left"></span>
-                        <span class="ani a- a-left"></span>
-                        <span class="ani a- a-left"></span>
-                    </div>
-                    <dl>
-                        <dt>Contact</dt>
+                    <dl class="ani a- a-left">
+                        <dt>Contact <img src="./images/plane.png" class="airplane"></dt>
                         <dd><i class="ri-phone-fill"></i><a href="tel:010.2416.3790">010.2416.3790</a></dd>
                         <dd><i class="ri-mail-fill"></i><a href="mailto:sdesign416@naver.com">sdesign416@naver.com</a></dd>
-                        <dd>© 2019 Kim, Ji-Min. All Rights Reserved.</dd>
+                        <dd><i class="ri-copyright-line"></i>2024. Oh, Seung-Ah. portfolio. All Rights Reserved.</dd>
                     </dl>
                 </article>
-				<i class="ri-send-plane-line airplane"></i>
             </div>
 			
 			<div class="bg-box">
