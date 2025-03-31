@@ -114,6 +114,8 @@ a.site-btn p{position:relative; display:inline-block; font-size:16px; font-weigh
 a.site-btn:after{content: "";transition: all .4s;display: block;background:#000;opacity:0;width:0px;height:0px;position: absolute;transform:translate(-50%, -50%);left:50%;top:50%;border-radius:100%;z-index: 1;}
 a.site-btn:hover:after{width:220px;height:220px;opacity:.3;}
 
+
+
 /* 주요프로젝트 */
 #sec03{position:relative; background-color:#fff;}
 #sec03 p.side-txt{position:absolute; font-size:15px; font-weight:400; color:#999; letter-spacing:0.01em; top:60px; left:0;} 
@@ -275,6 +277,6 @@ a.site-btn:hover:after{width:220px;height:220px;opacity:.3;}
 	75%{right:-45px;}
 }
 
-#sec01.end .end_wr.ani .cover-bot{transform:translateX(-15px); opacity:0;}
+#sec01.end .end_wr.ani .cover-bot{transform:translateX(-15px); opacity:0; transition-delay:.3s;}
 #sec01.end .end_wr.ani.in-view .cover-bot{transform:translateX(0px); opacity:1; transition:all 1s;}
 
