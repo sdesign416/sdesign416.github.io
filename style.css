@@ -204,7 +204,7 @@ a.site-btn:hover:after{width:220px;height:220px;opacity:.3;}
 .over-bg .obj-img.in-view .obj-6{opacity:1; bottom:-352px; right:281px; transform:translate(0%, 0%);}
 .over-bg .obj-img .obj-7{opacity:0; top:50%; right:50%; transform:translate(50%, -50%); transition:.8s; transition-delay:.7s;}
 .over-bg .obj-img.in-view .obj-7{opacity:1; top:36px; right:-567px; transform:translate(0%, 0%);}
-.over-bg .obj-img .obj-8{opacity:0; bottom:50%; right:0%; transform:translate(50%, 50%); transition:.8s; transition-delay:9s;}
+.over-bg .obj-img .obj-8{opacity:0; bottom:50%; right:0%; transform:translate(50%, 50%); transition:.8s; transition-delay:.8s;}
 .over-bg .obj-img.in-view .obj-8{opacity:1; bottom:-296px; right:-282px; transform:translate(0%, 0%);}
 
 
