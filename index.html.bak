@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html>
     <head>
+		<title>오승아 포트폴리오(이력서 포함)</title>
         <link rel="stylesheet" type="text/css" href="default.css">
         <link rel="stylesheet" type="text/css" href="font.css">
         <link rel="stylesheet" type="text/css" href="style.css">
@@ -141,12 +142,12 @@
 						<li class="w100">
 							<h5>Experience</h5>
 							<dl>
-								<dt>2020. 10 ~ 2021. 04</dt>
-								<dd>팁팁커뮤니케이션(마케팅·디자인팀)</dd>
-							</dl>
-							<dl>
 								<dt>2021. 04 ~ 2025. 01</dt>
 								<dd>디자인쏘다(디자인팀)</dd>
+							</dl>
+							<dl>
+								<dt>2020. 10 ~ 2021. 04</dt>
+								<dd>팁팁커뮤니케이션(마케팅·디자인팀)</dd>
 							</dl>
 						</li>
 						<!-- Education -->
