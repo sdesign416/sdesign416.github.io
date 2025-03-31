@@ -1,12 +1,15 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-		<title>오승아 포트폴리오(이력서 포함)</title>
+		<title>오승아 포트폴리오 및 이력서</title>
         <link rel="stylesheet" type="text/css" href="default.css">
         <link rel="stylesheet" type="text/css" href="font.css">
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+		<!-- Font -->
+		<link href="https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/static/woff2/SUIT.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
 		<link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
 
