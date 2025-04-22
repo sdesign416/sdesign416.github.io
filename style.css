@@ -74,14 +74,14 @@
 #sec02 .intro-left .img-box{position:relative; display:block; width:380px; height:480px; margin:0 auto;}
 #sec02 .intro-left .img-box img{width:100%;}
 #sec02 .intro-left .name-tit{position:relative; margin-top:35px; text-align:center;}
-#sec02 .intro-left .name-tit h4{font-family:var(--font); color:var(--pink001); font-weight:normal; font-size:72px; line-height:1; margin-bottom:30px;}
+#sec02 .intro-left .name-tit h4{font-family:var(--font); color:var(--pup001); font-weight:normal; font-size:72px; line-height:1; margin-bottom:30px;}
 #sec02 .intro-left .name-tit p{color:#666; font-weight:500; font-size:19px; line-height:1.65; letter-spacing:-0.02em;}
 
 #sec02 .intro-right{position:relative; width:60%; padding-left:145px;}
 #sec02 .intro-right ul{position:relative; display:flex; flex-wrap: wrap; row-gap:75px;}
 #sec02 .intro-right ul li{position:relative; width:50%;}
 #sec02 .intro-right ul li.w100{width:100%;}
-#sec02 .intro-right ul li h5{font-family:var(--font); color:var(--pink001); font-weight:normal; font-size:32px; line-height:1; letter-spacing:0.015em; text-transform:uppercase; margin-bottom:18px;}
+#sec02 .intro-right ul li h5{font-family:var(--font); color:var(--pup001); font-weight:normal; font-size:32px; line-height:1; letter-spacing:0.015em; text-transform:uppercase; margin-bottom:18px;}
 #sec02 .intro-right ul li dl{position:relative; width:100%; display: flex; align-items: center; gap:45px; margin-left:3px;}
 #sec02 .intro-right ul li dl + dl{margin-top:10px;}
 #sec02 .intro-right ul li dl dt{color:#555; font-weight:500; font-size:19px; letter-spacing:-0.05em;}
